@@ -30,7 +30,6 @@ s.dependency 'RxSwift'
 s.source_files = "ReactiveCoordinator/**/*.{swift}"
 
 # 9
-s.resources = "ReactiveCoordinator/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"

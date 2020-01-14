@@ -55,19 +55,19 @@
 		1CC9C1F423CDA54800DB874E /* ReactiveCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				1CC9C1FD23CDA55A00DB874E /* Source */,
+				1CC9C1FD23CDA55A00DB874E /* Classes */,
 				1CC9C1F523CDA54800DB874E /* ReactiveCoordinator.h */,
 				1CC9C1F623CDA54800DB874E /* Info.plist */,
 			);
 			path = ReactiveCoordinator;
 			sourceTree = "<group>";
 		};
-		1CC9C1FD23CDA55A00DB874E /* Source */ = {
+		1CC9C1FD23CDA55A00DB874E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				1CC9C1FE23CDA56A00DB874E /* ReactiveCoordinator.swift */,
 			);
-			path = Source;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CD00BDAA59C5B3EED3630FBA /* Pods */ = {
@@ -76,7 +76,6 @@
 				C9973A7C771F95AED79A812C /* Pods-ReactiveCoordinator.debug.xcconfig */,
 				CD9297EA24DAB4C452DB7CC5 /* Pods-ReactiveCoordinator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
