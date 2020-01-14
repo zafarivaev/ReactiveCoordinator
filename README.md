@@ -13,7 +13,7 @@ ReactiveCoordinator is a framework based on the Coordinator pattern. Implemented
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate ReactiveCoordinator into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'ReactiveCoordinator', '2.0.0'
+pod 'ReactiveCoordinator', '3.0.0'
 ```
 
 ## How To Use
