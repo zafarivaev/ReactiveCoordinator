@@ -10,9 +10,9 @@ import RxSwift
 
 open class ReactiveCoordinator<ResultType>: NSObject {
 
-    typealias CoordinationResult = ResultType
+    public typealias CoordinationResult = ResultType
 
-    let disposeBag = DisposeBag()
+    public let disposeBag = DisposeBag()
     private let identifier = UUID()
     private var childCoordinators = [UUID: Any]()
 
@@ -25,14 +25,14 @@ open class ReactiveCoordinator<ResultType>: NSObject {
     }
 
     @discardableResult
-    func coordinate<T>(to coordinator: ReactiveCoordinator<T>) -> Observable<T> {
+    public func coordinate<T>(to coordinator: ReactiveCoordinator<T>) -> Observable<T> {
         store(coordinator: coordinator)
         return coordinator.start()
             .do(onNext: { [weak self] _ in
                 self?.release(coordinator: coordinator) })
     }
 
-    func start() -> Observable<ResultType> {
+    public func start() -> Observable<ResultType> {
         fatalError("start() method must be implemented")
     }
 }
