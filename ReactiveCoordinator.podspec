@@ -8,7 +8,7 @@ s.summary = "ReactiveCoordinator is a Reactive framework based on the Coordinato
 s.requires_arc = true
 
 # 2
-s.version = "3.0.0"
+s.version = "4.0.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

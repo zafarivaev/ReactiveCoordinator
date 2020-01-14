@@ -25,16 +25,14 @@ open class ReactiveCoordinator<ResultType>: NSObject {
     }
 
     @discardableResult
-    public func coordinate<T>(to coordinator: ReactiveCoordinator<T>) -> Observable<T> {
+    open func coordinate<T>(to coordinator: ReactiveCoordinator<T>) -> Observable<T> {
         store(coordinator: coordinator)
         return coordinator.start()
             .do(onNext: { [weak self] _ in
                 self?.release(coordinator: coordinator) })
     }
 
-    public func start() -> Observable<ResultType> {
+    open func start() -> Observable<ResultType> {
         fatalError("start() method must be implemented")
     }
 }
-
-
