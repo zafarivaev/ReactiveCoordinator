@@ -1,0 +1,6 @@
+framework module Pods_ReactiveCoordinator {
+  umbrella header "Pods-ReactiveCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}
