@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1CC9C1F723CDA54800DB874E /* ReactiveCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC9C1F523CDA54800DB874E /* ReactiveCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC9C1FF23CDA56A00DB874E /* ReactiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9C1FE23CDA56A00DB874E /* ReactiveCoordinator.swift */; };
+		1CC9C20123CDC93300DB874E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9C20023CDC93300DB874E /* README.md */; };
 		B988C9B5238814CA2B3BB6D5 /* Pods_ReactiveCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884002CCA446FC25D1CF9A8A /* Pods_ReactiveCoordinator.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		1CC9C1F523CDA54800DB874E /* ReactiveCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveCoordinator.h; sourceTree = "<group>"; };
 		1CC9C1F623CDA54800DB874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC9C1FE23CDA56A00DB874E /* ReactiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCoordinator.swift; sourceTree = "<group>"; };
+		1CC9C20023CDC93300DB874E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		884002CCA446FC25D1CF9A8A /* Pods_ReactiveCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9973A7C771F95AED79A812C /* Pods-ReactiveCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCoordinator.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveCoordinator/Pods-ReactiveCoordinator.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9297EA24DAB4C452DB7CC5 /* Pods-ReactiveCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCoordinator.release.xcconfig"; path = "Target Support Files/Pods-ReactiveCoordinator/Pods-ReactiveCoordinator.release.xcconfig"; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		1CC9C1E823CDA54800DB874E = {
 			isa = PBXGroup;
 			children = (
+				1CC9C20023CDC93300DB874E /* README.md */,
 				1CC9C1F423CDA54800DB874E /* ReactiveCoordinator */,
 				1CC9C1F323CDA54800DB874E /* Products */,
 				CD00BDAA59C5B3EED3630FBA /* Pods */,
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC9C20123CDC93300DB874E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
